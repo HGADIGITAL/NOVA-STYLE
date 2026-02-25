@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova Style</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <!-- Video de fondo -->
+    <video id="background-video" autoplay loop muted>
+        <source src="images/WhatsApp_Video_2025-03-08_at_9_37_11_PM__1_.mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <nav class="navbar">
+        <a href="#" onclick="toggleDropdown('novedades-section')">Novedades</a>
+        <a href="#" onclick="toggleDropdown('catalogo-section')">Catálogo</a>
+        <a href="#" onclick="toggleDropdown('nova-style-section')">Nova Style</a>
+        <div class="logo">NOVA <span>STYLE</span></div>
+        <a href="#">Descuentos</a>
+        <a href="#">Carrito</a>
+        <a href="html/micuenta.html">Mi Cuenta</a>
+    </nav>
+    
+    <div id="novedades-section" class="dropdown-section">
+        <div class="dropdown-content-container">
+            <div class="dropdown-text">
+                <a href="html/iaou.html">ACCESO RÁPIDO A LA IA DE OUTFITS <span>PRO</span></a>
+                <a href="#">SECCIÓN A NOVEDADES Y COLECCIONES POPULARES</a>
+                <a href="#">FILTROS RÁPIDOS</a>
+            </div>
+            <div class="dropdown-images">
+                <img src="https://static.bershka.net/assets/public/e87e/f94b/aa5d42b3bd69/0e079b8fa7a9/cescawilkinson_5d815b58006d984c1349/cescawilkinson_5d815b58006d984c1349.jpg" alt="Imagen de Novedades">
+                <img src="https://static.bershka.net/assets/public/3f25/2c0e/537945fdb883/dd48d2f816ec/emmafrmx__bebc8a3ad28b8c1023d1/emmafrmx__bebc8a3ad28b8c1023d1.jpg?ts=1741022791279&w=375&ts=20250309015705" alt="Imagen de Novedades">
+                <img src="https://static.bershka.net/assets/public/3e34/18e5/97d348c5a532/ecca18a3010b/miniveorra_c8cc0be4f564abe027be/miniveorra_c8cc0be4f564abe027be.jpg?ts=1741022791604&w=375&ts=20250309015705" alt="Imagen de Novedades">
+                <img src="https://static.bershka.net/assets/public/1650/45e7/ef7340e88790/05eff31387d3/saraoriana_36d30f48a6c43f9dc988-copia/saraoriana_36d30f48a6c43f9dc988-copia.jpg?ts=1741022790386&w=375&ts=20250309015705" alt="Imagen de Novedades">
+            </div>
+        </div>
+    </div>
+    
+    <div id="catalogo-section" class="dropdown-section">
+        <div class="dropdown-content-container">
+            <div class="dropdown-text">
+                <a href="html/hombre.html">HOMBRE</a>
+                <a href="html/mujer.html">MUJER</a>
+                <a href="html/accesorios.html">ACCESORIOS</a>
+                <a href="html/calzado.html">CALZADO</a>
+                <a href="#">AVANZADO-FILTROS <span>PRO</span></a>
+                <a href="html/iaou.html">IA <span>PRO</span></a>
+            </div>
+            <div class="dropdown-images">
+                <img src="https://static.pxlecdn.com/photos/719781703/xl/0dfc1a6fd33230720150.jpg" alt="Imagen de Catálogo">
+                <img src="https://static.pxlecdn.com/photos/717080161/xl/f24b9f5c056de67cb3cc.jpg" alt="Imagen de Catálogo">
+                <img src="https://static.pxlecdn.com/photos/717044705/xl/2b87a0af728a409dd2de.jpg" alt="Imagen de Catálogo">
+                <img src="https://static.pxlecdn.com/photos/717931441/xl/876425389dec62412d5b.jpg" alt="Imagen de Catálogo">
+            </div>
+        </div>
+    </div>
+
+    <div id="nova-style-section" class="dropdown-section">
+        <div class="dropdown-content-container">
+            <div class="dropdown-text">
+                <a href="#">TENDENCIAS ACTUALES EN MODA</a>
+                <a href="#">RECOMENDACIONES POPULARES</a>
+                <a href="#">NUEVOS LANZAMIENTOS</a>
+                <a href="#">COLABORACIONES</a>
+            </div>
+            <div class="dropdown-images">
+                <img src="https://static.pxlecdn.com/photos/719326770/xl/f36e0256cb0c56b2ea1e.jpg" alt="Nova Style">
+                <img src="https://static.pxlecdn.com/photos/717216097/xl/b4b54896327bc0215137.jpg" alt="Imagen de Nova Style">
+                <img src="https://static.pxlecdn.com/photos/719838541/xl/c6700146a7e92b6d2229.jpg" alt="Nova Style">
+                <img src="https://static.pxlecdn.com/photos/717247760/xl/5fd11ebf9c0636ecd5b4.jpg" alt="Nova Style">
+            </div>
+        </div>
+    </div>
+    
+    <div class="image-grid">
+        <div class="image-box" onclick="location.href='html/calzado.html'">
+            <img src="https://static.bershka.net/assets/public/338d/3d33/a2674a64ac59/e2303fb7102b/11640560040-a3o/11640560040-a3o.jpg?ts=1737706641722&w=800" alt="Calzado">
+            <div class="image-label">Calzado</div>
+        </div>
+        <div class="image-box" onclick="location.href='html/hombre.html'">
+            <img src="https://static.bershka.net/assets/public/b6eb/81bb/5bc546e58706/2e3ed6262c76/03400190800-a4o/03400190800-a4o.jpg?ts=1738575425209&w=800" alt="Hombre">
+            <div class="image-label">Hombre</div>
+        </div>
+        <div class="image-box" onclick="location.href='html/mujer.html'">
+            <img src="https://static.bershka.net/assets/public/176b/be5a/09994e7f9c8b/82ff463297f7/00689187700-b/00689187700-b.jpg?ts=1738838572845&w=800" alt="Mujer">
+            <div class="image-label">Mujer</div>
+        </div>
+        <div class="image-box" onclick="location.href='html/accesorios.html'">
+            <img src="https://static.bershka.net/assets/public/f7b3/bb46/790542e99624/0f53731b5cac/0408316280003-p/0408316280003-p.jpg?ts=1732190451824&w=800" alt="Accesorios">
+            <div class="image-label">Accesorios</div>
+        </div>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+</html>

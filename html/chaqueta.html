@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chaqueta Elegante - Nova Style</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/producto.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="../index.html">← Volver</a>
+        <div class="logo" onclick="location.href='../index.html'">NOVA <span>STYLE</span></div>
+        <a href="carrito.html">Carrito (<span id="contador">0</span>)</a>
+    </nav>
+
+    <div class="container">
+        <div class="images">
+            <img src="https://static.bershka.net/assets/public/b6eb/81bb/5bc546e58706/2e3ed6262c76/03400190800-a4o/03400190800-a4o.jpg?ts=1738575425209&w=800" alt="Chaqueta">
+            <img src="https://static.bershka.net/assets/public/b6eb/81bb/5bc546e58706/2e3ed6262c76/03400190800-a1t/03400190800-a1t.jpg" alt="Chaqueta">
+            <img src="https://static.bershka.net/assets/public/b6eb/81bb/5bc546e58706/2e3ed6262c76/03400190800-a2d/03400190800-a2d.jpg" alt="Chaqueta">
+        </div>
+        <div class="product-details">
+            <h1 class="product-title">CHAQUETA ELEGANTE</h1>
+            <p class="price">MXN 9,999.00</p>
+            <p>NEGRA - REF. H-CHAQ-001</p>
+            <button class="button" onclick="agregarAlCarrito()">AÑADIR A LA CESTA</button>
+            <div class="info-box">COMPOSICIÓN, CUIDADOS Y ORIGEN</div>
+            <div class="info-box">DISPONIBILIDAD EN TIENDA</div>
+            <div class="info-box">ENVÍOS Y DEVOLUCIONES</div>
+            <div class="info-box free-shipping">ENVÍO A DOMICILIO - GRATIS</div>
+        </div>
+    </div>
+    
+    <div class="sidebar" id="cart-sidebar">
+        <div class="sidebar-header">
+            <span>Producto añadido</span>
+            <button onclick="cerrarSidebar()">✖</button>
+        </div>
+        <div id="preview-contenido"></div>
+        <button class="checkout-button" onclick="location.href='carrito.html'">Ver Cesta</button>
+    </div>
+    
+    <script src="../js/carrito.js"></script>
+    <script>
+        const PRODUCTO = {
+            id: 'chaqueta-elegante-2',
+            nombre: 'Chaqueta Elegante',
+            precio: 9999,
+            imagen: 'https://static.bershka.net/assets/public/b6eb/81bb/5bc546e58706/2e3ed6262c76/03400190800-a4o/03400190800-a4o.jpg?ts=1738575425209&w=800'
+        };
+
+        function actualizarContador() {
+            document.getElementById('contador').textContent = carrito.obtenerCantidadItems();
+        }
+
+        function agregarAlCarrito() {
+            carrito.agregarProducto(
+                PRODUCTO.id,
+                PRODUCTO.nombre,
+                PRODUCTO.precio,
+                PRODUCTO.imagen,
+                1
+            );
+            
+            document.getElementById('preview-contenido').innerHTML = `
+                <img src="${PRODUCTO.imagen}" alt="${PRODUCTO.nombre}" style="width: 100%; border-radius: 4px; margin-bottom: 15px;">
+                <p><strong>MXN ${PRODUCTO.precio.toLocaleString()}</strong><br>${PRODUCTO.nombre}</p>
+            `;
+            
+            actualizarContador();
+            abrirSidebar();
+        }
+
+        function abrirSidebar() {
+            document.getElementById('cart-sidebar').classList.add('active');
+        }
+
+        function cerrarSidebar() {
+            document.getElementById('cart-sidebar').classList.remove('active');
+        }
+
+        document.addEventListener('DOMContentLoaded', actualizarContador);
+    </script>
+</body>
+</html>

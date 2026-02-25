@@ -1,0 +1,14 @@
+# Dependencias para Nova Style Database
+
+# API REST
+Flask==3.0.0
+flask-cors==4.0.0
+
+# Base de datos (SQLite viene incluido con Python)
+# No se requieren dependencias adicionales para SQLite
+
+# Opcional: para desarrollo
+python-dotenv==1.0.0
+
+# Para testing (opcional)
+pytest==7.4.3

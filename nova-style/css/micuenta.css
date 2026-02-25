@@ -1,0 +1,60 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background: white;
+    margin: 0;
+    padding: 20px;
+    color: black;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+}
+
+.header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card {
+    background: #f8f8f8;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.card span {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.menu-item:last-child {
+    border-bottom: none;
+}
+
+.menu-item img {
+    width: 20px;
+    height: 20px;
+}
+
+.accessibility {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background: #f8f8f8;
+    padding: 10px;
+    border-radius: 50%;
+}

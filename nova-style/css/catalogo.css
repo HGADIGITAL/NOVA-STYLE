@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    overflow-x: hidden;
+    background-color: #f5f5f5;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(252, 247, 247, 0.9);
+    padding: 10px 0;
+    z-index: 1;
+    position: relative;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    transition: color 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.navbar a:hover {
+    color: #a8936d;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+}
+
+.logo span {
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.dropdown-section {
+    display: none;
+    background: rgba(252, 247, 247, 0.9);
+    padding: 40px;
+    position: absolute;
+    top: 122px;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    transition: max-height 0.5s ease-out, padding 0.5s ease-out;
+    transform: translateY(-20px);
+    opacity: 0;
+}
+
+.dropdown-section.active {
+    display: flex;
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.dropdown-content-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.dropdown-text {
+    flex: 1;
+    padding-left: 0px;
+    padding-top: 10px;
+}
+
+.dropdown-text a {
+    display: block;
+    margin: 5px 0;
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.dropdown-text a span {
+    background: black;
+    color: white;
+    padding: 2px 5px;
+    font-size: 10px;
+}
+
+.dropdown-images {
+    display: flex;
+    gap: 10px;
+    flex: 1;
+    justify-content: flex-end;
+    padding-right: 150px;
+}
+
+.dropdown-images img {
+    width: 170px;
+    height: 230px;
+    border-radius: 20px;
+}
+
+.catalogo {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+    padding: 10px;
+    justify-items: center;
+}
+
+.producto, .productodd {
+    background: white;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    width: auto;
+    cursor: pointer;
+}
+
+.producto:hover, .productodd:hover {
+    transform: scale(1.05);
+}
+
+.producto img, .productodd img {
+    width: 100%;
+    width: 300px;
+    height: 350px;
+    border-bottom: 1px solid #ddd;
+}
+
+.producto h3 {
+    font-size: 20px;
+    margin: 2px 0;
+}
+
+.producto p {
+    color: #a8936d;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.boton-comprar {
+    display: inline-block;
+    padding: 6px 12px;
+    background: #a8936d;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+.boton-comprar:hover {
+    background: #8a7350;
+}

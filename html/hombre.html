@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hombre - Nova Style</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/catalogo.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#" onclick="toggleDropdown('novedades-section')">Novedades</a>
+        <a href="#" onclick="toggleDropdown('catalogo-section')">Catálogo</a>
+        <a href="#" onclick="toggleDropdown('nova-style-section')">Nova Style</a>
+        <div class="logo" onclick="location.href='../index.html'">NOVA <span>STYLE</span></div>
+        <a href="#">Descuentos</a>
+        <a href="carrito.html">Carrito (<span id="contador">0</span>)</a>
+        <a href="micuenta.html">Mi Cuenta</a>
+    </nav>
+
+    <div id="novedades-section" class="dropdown-section">
+        <div class="dropdown-content-container">
+            <div class="dropdown-text">
+                <a href="iaou.html">ACCESO RÁPIDO A LA IA DE OUTFITS <span>PRO</span></a>
+                <a href="#">SECCIÓN A NOVEDADES Y COLECCIONES POPULARES</a>
+                <a href="#">FILTROS RÁPIDOS</a>
+            </div>
+            <div class="dropdown-images">
+                <img src="https://static.bershka.net/assets/public/e87e/f94b/aa5d42b3bd69/0e079b8fa7a9/cescawilkinson_5d815b58006d984c1349/cescawilkinson_5d815b58006d984c1349.jpg" alt="Novedades">
+                <img src="https://static.bershka.net/assets/public/3f25/2c0e/537945fdb883/dd48d2f816ec/emmafrmx__bebc8a3ad28b8c1023d1/emmafrmx__bebc8a3ad28b8c1023d1.jpg?ts=1741022791279&w=375" alt="Novedades">
+                <img src="https://static.bershka.net/assets/public/3e34/18e5/97d348c5a532/ecca18a3010b/miniveorra_c8cc0be4f564abe027be/miniveorra_c8cc0be4f564abe027be.jpg?ts=1741022791604&w=375" alt="Novedades">
+                <img src="https://static.bershka.net/assets/public/1650/45e7/ef7340e88790/05eff31387d3/saraoriana_36d30f48a6c43f9dc988-copia/saraoriana_36d30f48a6c43f9dc988-copia.jpg?ts=1741022790386&w=375" alt="Novedades">
+            </div>
+        </div>
+    </div>
+
+    <div id="catalogo-section" class="dropdown-section">
+        <div class="dropdown-content-container">
+            <div class="dropdown-text">
+                <a href="hombre.html">HOMBRE</a>
+                <a href="mujer.html">MUJER</a>
+                <a href="accesorios.html">ACCESORIOS</a>
+                <a href="calzado.html">CALZADO</a>
+                <a href="#">AVANZADO-FILTROS <span>PRO</span></a>
+                <a href="iaou.html">IA <span>PRO</span></a>
+            </div>
+            <div class="dropdown-images">
+                <img src="https://static.pxlecdn.com/photos/719781703/xl/0dfc1a6fd33230720150.jpg" alt="Catálogo">
+                <img src="https://static.pxlecdn.com/photos/717080161/xl/f24b9f5c056de67cb3cc.jpg" alt="Catálogo">
+                <img src="https://static.pxlecdn.com/photos/717044705/xl/2b87a0af728a409dd2de.jpg" alt="Catálogo">
+                <img src="https://static.pxlecdn.com/photos/717931441/xl/876425389dec62412d5b.jpg" alt="Catálogo">
+            </div>
+        </div>
+    </div>
+
+    <div id="nova-style-section" class="dropdown-section">
+        <div class="dropdown-content-container">
+            <div class="dropdown-text">
+                <a href="#">TENDENCIAS ACTUALES EN MODA</a>
+                <a href="#">RECOMENDACIONES POPULARES</a>
+                <a href="#">NUEVOS LANZAMIENTOS</a>
+                <a href="#">COLABORACIONES</a>
+            </div>
+            <div class="dropdown-images">
+                <img src="https://static.pxlecdn.com/photos/719326770/xl/f36e0256cb0c56b2ea1e.jpg" alt="Nova Style">
+                <img src="https://static.pxlecdn.com/photos/717216097/xl/b4b54896327bc0215137.jpg" alt="Nova Style">
+                <img src="https://static.pxlecdn.com/photos/719838541/xl/c6700146a7e92b6d2229.jpg" alt="Nova Style">
+                <img src="https://static.pxlecdn.com/photos/717247760/xl/5fd11ebf9c0636ecd5b4.jpg" alt="Nova Style">
+            </div>
+        </div>
+    </div>
+
+    <div class="catalogo-header">
+        <h1>COLECCIÓN HOMBRE</h1>
+        <p>Descubre nuestros productos de alta calidad para hombre</p>
+    </div>
+
+    <div class="productos-grid">
+        <div class="producto-card" onclick="location.href='patang.html'">
+            <img src="https://static.bershka.net/assets/public/56ea/21cc/be5e42998afb/ce4a40be9a71/00413710800-p/00413710800-p.jpg?ts=1737971359306&w=800" alt="Pantalón Negro">
+            <h3>Pantalón Negro Ajustado</h3>
+            <p class="precio">MXN 850</p>
+            <button class="btn-card">Ver Detalles</button>
+        </div>
+
+        <div class="producto-card" onclick="location.href='chaqueta.html'">
+            <img src="https://static.bershka.net/assets/public/b6eb/81bb/5bc546e58706/2e3ed6262c76/03400190800-a4o/03400190800-a4o.jpg?ts=1738575425209&w=800" alt="Chaqueta Elegante">
+            <h3>Chaqueta Elegante</h3>
+            <p class="precio">MXN 9,999</p>
+            <button class="btn-card">Ver Detalles</button>
+        </div>
+
+        <div class="producto-card" onclick="location.href='camisa.html'">
+            <img src="https://static.bershka.net/assets/public/2366/9389/4ce049cfa00c/2ba3e1cba64e/01579718200-p/01579718200-p.jpg?ts=1738686751153&w=800" alt="Camisa Casual">
+            <h3>Camisa Casual Blanca</h3>
+            <p class="precio">MXN 599</p>
+            <button class="btn-card">Ver Detalles</button>
+        </div>
+    </div>
+
+    <script src="../js/carrito.js"></script>
+    <script src="../js/index.js"></script>
+    <script>
+        function toggleDropdown(sectionId) {
+            const sections = document.querySelectorAll('.dropdown-section');
+            sections.forEach((section) => {
+                if (section.id !== sectionId) {
+                    section.classList.remove('active');
+                }
+            });
+            const section = document.getElementById(sectionId);
+            section.classList.toggle('active');
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            document.getElementById('contador').textContent = carrito.obtenerCantidadItems();
+        });
+    </script>
+</body>
+</html>

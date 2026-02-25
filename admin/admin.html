@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel de Control | Nova Style</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Nova Style - Administración</h1>
+            <a href="../html/index.html" class="btn-secundario">Ir a la Tienda</a>
+        </header>
+
+        <section class="form-container">
+            <h2>Agregar Nuevo Producto</h2>
+            <div class="grid-inputs">
+                <input type="text" id="nombre" placeholder="Nombre del Producto (ej: Pantalón Slim)">
+                <input type="number" id="precio" placeholder="Precio ($)">
+                <input type="number" id="stock" placeholder="Cantidad en Stock">
+                <input type="text" id="referencia" placeholder="Referencia (ej: NS-101)">
+            </div>
+            <button onclick="agregarProducto()" class="btn-principal">Guardar Producto</button>
+        </section>
+
+        <section class="tabla-container">
+            <h2>Inventario Actual</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Producto</th>
+                        <th>Precio</th>
+                        <th>Stock</th>
+                        <th>Referencia</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody id="cuerpo-tabla">
+                    </tbody>
+            </table>
+        </section>
+    </div>
+
+    <script src="admin.js"></script>
+</body>
+</html>

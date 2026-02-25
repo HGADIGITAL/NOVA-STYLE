@@ -1,0 +1,739 @@
+[
+  {
+    "id_producto": 1,
+    "nombre": "Pantalón Negro Ajustado",
+    "descripcion": "Pantalón negro ajustado de corte moderno, perfecto para ocasiones formales o casuales.",
+    "precio": 9000,
+    "precio_descuento": null,
+    "referencia": "H-PANT-001",
+    "id_categoria": 1,
+    "genero": "hombre",
+    "stock": 50,
+    "activo": 1,
+    "fecha_creacion": "2026-02-07 23:11:03",
+    "fecha_actualizacion": "2026-02-07 23:11:03",
+    "categoria_nombre": "Hombre",
+    "imagenes": [
+      {
+        "url_imagen": "https://static.bershka.net/assets/public/56ea/21cc/be5e42998afb/ce4a40be9a71/00413710800-p/00413710800-p.jpg",
+        "es_principal": 1,
+        "orden": 0
+      },
+      {
+        "url_imagen": "https://static.bershka.net/assets/public/39f0/af17/e11a4aa88ee4/17d9608625a0/00413710800-a1t/00413710800-a1t.jpg",
+        "es_principal": 0,
+        "orden": 1
+      },
+      {
+        "url_imagen": "https://static.bershka.net/assets/public/b90f/7547/0c0e4246b110/6a077dc88a6e/00413710800-a2d/00413710800-a2d.jpg",
+        "es_principal": 0,
+        "orden": 2
+      }
+    ],
+    "tallas": [
+      {
+        "id_talla": 1,
+        "nombre": "XS",
+        "stock": 10
+      },
+      {
+        "id_talla": 2,
+        "nombre": "S",
+        "stock": 10
+      },
+      {
+        "id_talla": 3,
+        "nombre": "M",
+        "stock": 10
+      },
+      {
+        "id_talla": 4,
+        "nombre": "L",
+        "stock": 10
+      },
+      {
+        "id_talla": 5,
+        "nombre": "XL",
+        "stock": 10
+      },
+      {
+        "id_talla": 6,
+        "nombre": "XXL",
+        "stock": 10
+      }
+    ],
+    "colores": [
+      {
+        "id_color": 2,
+        "nombre": "Blanco",
+        "codigo_hex": "#FFFFFF",
+        "stock": 15
+      },
+      {
+        "id_color": 4,
+        "nombre": "Azul",
+        "codigo_hex": "#0000FF",
+        "stock": 15
+      },
+      {
+        "id_color": 11,
+        "nombre": "Beige",
+        "codigo_hex": "#F5F5DC",
+        "stock": 15
+      }
+    ]
+  },
+  {
+    "id_producto": 2,
+    "nombre": "Chaqueta Elegante",
+    "descripcion": "Chaqueta elegante para hombre, ideal para el trabajo o eventos especiales.",
+    "precio": 9999,
+    "precio_descuento": null,
+    "referencia": "H-CHAQ-001",
+    "id_categoria": 1,
+    "genero": "hombre",
+    "stock": 30,
+    "activo": 1,
+    "fecha_creacion": "2026-02-07 23:11:03",
+    "fecha_actualizacion": "2026-02-07 23:11:03",
+    "categoria_nombre": "Hombre",
+    "imagenes": [
+      {
+        "url_imagen": "https://static.bershka.net/assets/public/2366/9389/4ce049cfa00c/2ba3e1cba64e/01579718200-p/01579718200-p.jpg",
+        "es_principal": 1,
+        "orden": 0
+      }
+    ],
+    "tallas": [
+      {
+        "id_talla": 1,
+        "nombre": "XS",
+        "stock": 10
+      },
+      {
+        "id_talla": 2,
+        "nombre": "S",
+        "stock": 10
+      },
+      {
+        "id_talla": 3,
+        "nombre": "M",
+        "stock": 10
+      },
+      {
+        "id_talla": 4,
+        "nombre": "L",
+        "stock": 10
+      },
+      {
+        "id_talla": 5,
+        "nombre": "XL",
+        "stock": 10
+      },
+      {
+        "id_talla": 6,
+        "nombre": "XXL",
+        "stock": 10
+      }
+    ],
+    "colores": [
+      {
+        "id_color": 2,
+        "nombre": "Blanco",
+        "codigo_hex": "#FFFFFF",
+        "stock": 15
+      },
+      {
+        "id_color": 4,
+        "nombre": "Azul",
+        "codigo_hex": "#0000FF",
+        "stock": 15
+      },
+      {
+        "id_color": 11,
+        "nombre": "Beige",
+        "codigo_hex": "#F5F5DC",
+        "stock": 15
+      }
+    ]
+  },
+  {
+    "id_producto": 3,
+    "nombre": "Camisa Casual",
+    "descripcion": "Camisa casual de manga larga, perfecta para el día a día.",
+    "precio": 599,
+    "precio_descuento": null,
+    "referencia": "H-CAM-001",
+    "id_categoria": 1,
+    "genero": "hombre",
+    "stock": 45,
+    "activo": 1,
+    "fecha_creacion": "2026-02-07 23:11:03",
+    "fecha_actualizacion": "2026-02-07 23:11:03",
+    "categoria_nombre": "Hombre",
+    "imagenes": [
+      {
+        "url_imagen": "https://static.bershka.net/assets/public/25cb/a4b8/36754be8aae7/b49a3af0fb7c/01575677800-p/01575677800-p.jpg",
+        "es_principal": 1,
+        "orden": 0
+      }
+    ],
+    "tallas": [
+      {
+        "id_talla": 1,
+        "nombre": "XS",
+        "stock": 10
+      },
+      {
+        "id_talla": 2,
+        "nombre": "S",
+        "stock": 10
+      },
+      {
+        "id_talla": 3,
+        "nombre": "M",
+        "stock": 10
+      },
+      {
+        "id_talla": 4,
+        "nombre": "L",
+        "stock": 10
+      },
+      {
+        "id_talla": 5,
+        "nombre": "XL",
+        "stock": 10
+      },
+      {
+        "id_talla": 6,
+        "nombre": "XXL",
+        "stock": 10
+      }
+    ],
+    "colores": [
+      {
+        "id_color": 2,
+        "nombre": "Blanco",
+        "codigo_hex": "#FFFFFF",
+        "stock": 15
+      },
+      {
+        "id_color": 4,
+        "nombre": "Azul",
+        "codigo_hex": "#0000FF",
+        "stock": 15
+      },
+      {
+        "id_color": 11,
+        "nombre": "Beige",
+        "codigo_hex": "#F5F5DC",
+        "stock": 15
+      }
+    ]
+  },
+  {
+    "id_producto": 4,
+    "nombre": "Pantalón Balloon Parachute",
+    "descripcion": "Pantalón balloon parachute técnico, diseño moderno y cómodo.",
+    "precio": 1299,
+    "precio_descuento": null,
+    "referencia": "M-PANT-001",
+    "id_categoria": 2,
+    "genero": "mujer",
+    "stock": 40,
+    "activo": 1,
+    "fecha_creacion": "2026-02-07 23:11:03",
+    "fecha_actualizacion": "2026-02-07 23:11:03",
+    "categoria_nombre": "Mujer",
+    "imagenes": [
+      {
+        "url_imagen": "https://static.bershka.net/assets/public/9835/6f81/5dc84dd8a88f/b37d4912847b/00110741505-p/00110741505-p.jpg",
+        "es_principal": 1,
+        "orden": 0
+      },
+      {
+        "url_imagen": "https://static.bershka.net/assets/public/129e/7bb7/fe644ddbb1af/82824880cfd7/00110741505-a2d/00110741505-a2d.jpg",
+        "es_principal": 0,
+        "orden": 1
+      },
+      {
+        "url_imagen": "https://static.bershka.net/assets/public/b179/99d4/cfd440d58f4f/cd89de9786d4/00110741505-a3o/00110741505-a3o.jpg",
+        "es_principal": 0,
+        "orden": 2
+      }
+    ],
+    "tallas": [
+      {
+        "id_talla": 1,
+        "nombre": "XS",
+        "stock": 10
+      },
+      {
+        "id_talla": 2,
+        "nombre": "S",
+        "stock": 10
+      },
+      {
+        "id_talla": 3,
+        "nombre": "M",
+        "stock": 10
+      },
+      {
+        "id_talla": 4,
+        "nombre": "L",
+        "stock": 10
+      },
+      {
+        "id_talla": 5,
+        "nombre": "XL",
+        "stock": 10
+      },
+      {
+        "id_talla": 6,
+        "nombre": "XXL",
+        "stock": 10
+      }
+    ],
+    "colores": [
+      {
+        "id_color": 2,
+        "nombre": "Blanco",
+        "codigo_hex": "#FFFFFF",
+        "stock": 15
+      },
+      {
+        "id_color": 4,
+        "nombre": "Azul",
+        "codigo_hex": "#0000FF",
+        "stock": 15
+      },
+      {
+        "id_color": 11,
+        "nombre": "Beige",
+        "codigo_hex": "#F5F5DC",
+        "stock": 15
+      }
+    ]
+  },
+  {
+    "id_producto": 5,
+    "nombre": "Vestido Elegante",
+    "descripcion": "Vestido elegante para ocasiones especiales.",
+    "precio": 1599,
+    "precio_descuento": null,
+    "referencia": "M-VEST-001",
+    "id_categoria": 2,
+    "genero": "mujer",
+    "stock": 25,
+    "activo": 1,
+    "fecha_creacion": "2026-02-07 23:11:03",
+    "fecha_actualizacion": "2026-02-07 23:11:03",
+    "categoria_nombre": "Mujer",
+    "imagenes": [
+      {
+        "url_imagen": "https://static.bershka.net/assets/public/9cc9/40ae/da744853a5ef/9e09d012246f/00650693700-p/00650693700-p.jpg",
+        "es_principal": 1,
+        "orden": 0
+      }
+    ],
+    "tallas": [
+      {
+        "id_talla": 1,
+        "nombre": "XS",
+        "stock": 10
+      },
+      {
+        "id_talla": 2,
+        "nombre": "S",
+        "stock": 10
+      },
+      {
+        "id_talla": 3,
+        "nombre": "M",
+        "stock": 10
+      },
+      {
+        "id_talla": 4,
+        "nombre": "L",
+        "stock": 10
+      },
+      {
+        "id_talla": 5,
+        "nombre": "XL",
+        "stock": 10
+      },
+      {
+        "id_talla": 6,
+        "nombre": "XXL",
+        "stock": 10
+      }
+    ],
+    "colores": [
+      {
+        "id_color": 2,
+        "nombre": "Blanco",
+        "codigo_hex": "#FFFFFF",
+        "stock": 15
+      },
+      {
+        "id_color": 4,
+        "nombre": "Azul",
+        "codigo_hex": "#0000FF",
+        "stock": 15
+      },
+      {
+        "id_color": 11,
+        "nombre": "Beige",
+        "codigo_hex": "#F5F5DC",
+        "stock": 15
+      }
+    ]
+  },
+  {
+    "id_producto": 6,
+    "nombre": "Conjunto Casual",
+    "descripcion": "Conjunto casual de dos piezas, perfecto para el día a día.",
+    "precio": 899,
+    "precio_descuento": null,
+    "referencia": "M-CONJ-001",
+    "id_categoria": 2,
+    "genero": "mujer",
+    "stock": 35,
+    "activo": 1,
+    "fecha_creacion": "2026-02-07 23:11:03",
+    "fecha_actualizacion": "2026-02-07 23:11:03",
+    "categoria_nombre": "Mujer",
+    "imagenes": [
+      {
+        "url_imagen": "https://static.bershka.net/assets/public/1184/ce74/4a68423d8d87/fb4693472564/03575028401-p/03575028401-p.jpg",
+        "es_principal": 1,
+        "orden": 0
+      }
+    ],
+    "tallas": [
+      {
+        "id_talla": 1,
+        "nombre": "XS",
+        "stock": 10
+      },
+      {
+        "id_talla": 2,
+        "nombre": "S",
+        "stock": 10
+      },
+      {
+        "id_talla": 3,
+        "nombre": "M",
+        "stock": 10
+      },
+      {
+        "id_talla": 4,
+        "nombre": "L",
+        "stock": 10
+      },
+      {
+        "id_talla": 5,
+        "nombre": "XL",
+        "stock": 10
+      },
+      {
+        "id_talla": 6,
+        "nombre": "XXL",
+        "stock": 10
+      }
+    ],
+    "colores": [
+      {
+        "id_color": 2,
+        "nombre": "Blanco",
+        "codigo_hex": "#FFFFFF",
+        "stock": 15
+      },
+      {
+        "id_color": 4,
+        "nombre": "Azul",
+        "codigo_hex": "#0000FF",
+        "stock": 15
+      },
+      {
+        "id_color": 11,
+        "nombre": "Beige",
+        "codigo_hex": "#F5F5DC",
+        "stock": 15
+      }
+    ]
+  },
+  {
+    "id_producto": 7,
+    "nombre": "Zapatillas Deportivas",
+    "descripcion": "Zapatillas deportivas cómodas y modernas, ideales para entrenar o uso casual.",
+    "precio": 1199,
+    "precio_descuento": null,
+    "referencia": "C-ZAP-001",
+    "id_categoria": 3,
+    "genero": "unisex",
+    "stock": 60,
+    "activo": 1,
+    "fecha_creacion": "2026-02-07 23:11:03",
+    "fecha_actualizacion": "2026-02-07 23:11:03",
+    "categoria_nombre": "Calzado",
+    "imagenes": [
+      {
+        "url_imagen": "https://static.bershka.net/assets/public/161f/883d/43c7405598e9/3a6cc114453f/12485560100-a4o/12485560100-a4o.jpg",
+        "es_principal": 1,
+        "orden": 0
+      },
+      {
+        "url_imagen": "https://static.bershka.net/assets/public/39f3/6415/4a8945229766/67a6470f2078/12485560100-a2d/12485560100-a2d.jpg",
+        "es_principal": 0,
+        "orden": 1
+      },
+      {
+        "url_imagen": "https://static.bershka.net/assets/public/1107/3e63/59034df18908/1198cc2069a7/12485560100-a1t/12485560100-a1t.jpg",
+        "es_principal": 0,
+        "orden": 2
+      }
+    ],
+    "tallas": [],
+    "colores": [
+      {
+        "id_color": 2,
+        "nombre": "Blanco",
+        "codigo_hex": "#FFFFFF",
+        "stock": 15
+      },
+      {
+        "id_color": 4,
+        "nombre": "Azul",
+        "codigo_hex": "#0000FF",
+        "stock": 15
+      },
+      {
+        "id_color": 11,
+        "nombre": "Beige",
+        "codigo_hex": "#F5F5DC",
+        "stock": 15
+      }
+    ]
+  },
+  {
+    "id_producto": 8,
+    "nombre": "Tenis Casual",
+    "descripcion": "Tenis casual para uso diario.",
+    "precio": 899,
+    "precio_descuento": null,
+    "referencia": "C-TEN-001",
+    "id_categoria": 3,
+    "genero": "unisex",
+    "stock": 55,
+    "activo": 1,
+    "fecha_creacion": "2026-02-07 23:11:03",
+    "fecha_actualizacion": "2026-02-07 23:11:03",
+    "categoria_nombre": "Calzado",
+    "imagenes": [
+      {
+        "url_imagen": "https://static.bershka.net/assets/public/72f1/e8a4/0dc449318052/367be42493b6/12616460040-a4o/12616460040-a4o.jpg",
+        "es_principal": 1,
+        "orden": 0
+      }
+    ],
+    "tallas": [],
+    "colores": [
+      {
+        "id_color": 2,
+        "nombre": "Blanco",
+        "codigo_hex": "#FFFFFF",
+        "stock": 15
+      },
+      {
+        "id_color": 4,
+        "nombre": "Azul",
+        "codigo_hex": "#0000FF",
+        "stock": 15
+      },
+      {
+        "id_color": 11,
+        "nombre": "Beige",
+        "codigo_hex": "#F5F5DC",
+        "stock": 15
+      }
+    ]
+  },
+  {
+    "id_producto": 9,
+    "nombre": "Botas",
+    "descripcion": "Botas elegantes de piel sintética.",
+    "precio": 1499,
+    "precio_descuento": null,
+    "referencia": "C-BOT-001",
+    "id_categoria": 3,
+    "genero": "unisex",
+    "stock": 30,
+    "activo": 1,
+    "fecha_creacion": "2026-02-07 23:11:03",
+    "fecha_actualizacion": "2026-02-07 23:11:03",
+    "categoria_nombre": "Calzado",
+    "imagenes": [
+      {
+        "url_imagen": "https://static.bershka.net/assets/public/7b1d/d56a/0cc746808398/5defe9c3f153/12478560001-01-a3o/12478560001-01-a3o.jpg",
+        "es_principal": 1,
+        "orden": 0
+      }
+    ],
+    "tallas": [],
+    "colores": [
+      {
+        "id_color": 2,
+        "nombre": "Blanco",
+        "codigo_hex": "#FFFFFF",
+        "stock": 15
+      },
+      {
+        "id_color": 4,
+        "nombre": "Azul",
+        "codigo_hex": "#0000FF",
+        "stock": 15
+      },
+      {
+        "id_color": 11,
+        "nombre": "Beige",
+        "codigo_hex": "#F5F5DC",
+        "stock": 15
+      }
+    ]
+  },
+  {
+    "id_producto": 10,
+    "nombre": "Collar Moderno",
+    "descripcion": "Collar moderno con diseño minimalista.",
+    "precio": 399,
+    "precio_descuento": null,
+    "referencia": "A-COLL-001",
+    "id_categoria": 4,
+    "genero": "unisex",
+    "stock": 100,
+    "activo": 1,
+    "fecha_creacion": "2026-02-07 23:11:03",
+    "fecha_actualizacion": "2026-02-07 23:11:03",
+    "categoria_nombre": "Accesorios",
+    "imagenes": [
+      {
+        "url_imagen": "https://static.bershka.net/assets/public/4ef2/0a7a/009049d3b53d/b7ce2c1db279/04466023302-p/04466023302-p.jpg",
+        "es_principal": 1,
+        "orden": 0
+      },
+      {
+        "url_imagen": "https://static.bershka.net/assets/public/c513/183f/9db64fbf8a6c/f9787ded3149/04466023302-a4o/04466023302-a4o.jpg",
+        "es_principal": 0,
+        "orden": 1
+      }
+    ],
+    "tallas": [],
+    "colores": [
+      {
+        "id_color": 2,
+        "nombre": "Blanco",
+        "codigo_hex": "#FFFFFF",
+        "stock": 15
+      },
+      {
+        "id_color": 4,
+        "nombre": "Azul",
+        "codigo_hex": "#0000FF",
+        "stock": 15
+      },
+      {
+        "id_color": 11,
+        "nombre": "Beige",
+        "codigo_hex": "#F5F5DC",
+        "stock": 15
+      }
+    ]
+  },
+  {
+    "id_producto": 11,
+    "nombre": "Pulsera Elegante",
+    "descripcion": "Pulsera elegante de acero inoxidable.",
+    "precio": 299,
+    "precio_descuento": null,
+    "referencia": "A-PULS-001",
+    "id_categoria": 4,
+    "genero": "unisex",
+    "stock": 80,
+    "activo": 1,
+    "fecha_creacion": "2026-02-07 23:11:03",
+    "fecha_actualizacion": "2026-02-07 23:11:03",
+    "categoria_nombre": "Accesorios",
+    "imagenes": [
+      {
+        "url_imagen": "https://static.bershka.net/assets/public/8e12/56a9/a34441a7a578/ea834e0d46c0/04469769302-a7o/04469769302-a7o.jpg",
+        "es_principal": 1,
+        "orden": 0
+      }
+    ],
+    "tallas": [],
+    "colores": [
+      {
+        "id_color": 2,
+        "nombre": "Blanco",
+        "codigo_hex": "#FFFFFF",
+        "stock": 15
+      },
+      {
+        "id_color": 4,
+        "nombre": "Azul",
+        "codigo_hex": "#0000FF",
+        "stock": 15
+      },
+      {
+        "id_color": 11,
+        "nombre": "Beige",
+        "codigo_hex": "#F5F5DC",
+        "stock": 15
+      }
+    ]
+  },
+  {
+    "id_producto": 12,
+    "nombre": "Bolso",
+    "descripcion": "Bolso versátil para uso diario.",
+    "precio": 899,
+    "precio_descuento": null,
+    "referencia": "A-BOLS-001",
+    "id_categoria": 4,
+    "genero": "unisex",
+    "stock": 40,
+    "activo": 1,
+    "fecha_creacion": "2026-02-07 23:11:03",
+    "fecha_actualizacion": "2026-02-07 23:11:03",
+    "categoria_nombre": "Accesorios",
+    "imagenes": [
+      {
+        "url_imagen": "https://static.bershka.net/assets/public/b215/9855/c9bb44fa909d/e440f9c7dfcf/04120668742-p/04120668742-p.jpg",
+        "es_principal": 1,
+        "orden": 0
+      }
+    ],
+    "tallas": [],
+    "colores": [
+      {
+        "id_color": 2,
+        "nombre": "Blanco",
+        "codigo_hex": "#FFFFFF",
+        "stock": 15
+      },
+      {
+        "id_color": 4,
+        "nombre": "Azul",
+        "codigo_hex": "#0000FF",
+        "stock": 15
+      },
+      {
+        "id_color": 11,
+        "nombre": "Beige",
+        "codigo_hex": "#F5F5DC",
+        "stock": 15
+      }
+    ]
+  }
+]
